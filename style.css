@@ -1,0 +1,18 @@
+#main-row {
+    height: 100vh;
+    align-items: center;
+}
+
+#main-col {
+    height: auto;
+    align-items: center;
+}
+
+#brand {
+    max-height: 60px;
+}
+
+#brand-logo {
+    max-width: 60px;
+    object-fit: cover;
+}
