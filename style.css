@@ -39,14 +39,15 @@ h1 span {
 h2 {
     font-weight: bold;
     font-size: small;
-    margin-bottom: 0;
+    margin-top: 12px;
+    margin-bottom: 6px;
     color: goldenrod;
     font-family: 'Dancing Script', cursive;
 }
 
 h3 {
     font-size: large;
-    margin-bottom: 0;
+    margin-bottom: 12px;
     color: gray;
     font-weight: 500;
 }
