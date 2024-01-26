@@ -11,18 +11,21 @@
     <!-- Import your style.css stylesheet -->
     <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
   </head>
   <!-- Implement below this point -->
   <div class="container">
     <div class="row" id="main-row">
       <div class="col" id="main-col">
         <!--Brand-->
-        <div class="row justify-content-center align-items-end gx-1" id="brand" style="background-color: red;">
-          <div class="col-auto" style="background-color: yellow;">
-            <img src="images\temp.png" alt="Brand Logo" id="brand-logo">
+        <div class="row justify-content-center align-items-end gx-1" id="brand">
+          <div class="col-auto">
+            <img src="images\PhoThaiSon.png" alt="Brand Logo" id="brand-logo">
           </div>
-          <div class="col-auto text-center" style="background-color: green;">
-            <h1>CAMPUS CAFE</h1>
+          <div class="col-auto text-center">
+            <h1>P<span>HO</span> T<span>HÁI</span> S<span>ON</span></h1>
           </div>
         </div>
 
@@ -30,41 +33,42 @@
         <div class="row">
           <div class="col">
             <div class="row">
-              <div class="col text-center" style="background-color: green;">
-                <h3>Delicious, From-Scratch Recipes Close at Hand</h3>
+              <div class="col text-center">
+                <h2>Authentic Restaurant-Style Vietnamese Cuisine</h2>
               </div>
             </div>
             <div class="row">
-              <div class="col text-center" style="background-color: green;">
-                <h2>The Fresh Choice of UT!</h2>
+              <div class="col text-center">
+                <h3>Try Our Vibrant Flavors!</h3>
               </div>
             </div>
           </div>
         </div>
 
-        <!--Item Container-->
-        <div class="row" style="background-color: black;">
-          <div class="col items-container" style="background-color: red;">
-            <div class="row justify-content-center align-items-end item-container" style="background-color: orange;">
+        <!--Items Container-->
+        <div class="row">
+          <div class="col items-container">
+            <!--Item Container-->
+            <div class="row justify-content-center align-items-end item-container">
               <!--Item Image-->
-              <div class="col-auto p-0" style="background-color: yellow;">
-                <img src="images\temp.png" alt="Item Image" class="item-image">
+              <div class="col-auto p-0">
+                <img src="images\PorkDumplings.png" alt="Item Image" class="item-image">
               </div>
               <!-- Item Info -->
               <div class="col item-info">
                 <!-- Item Name -->
                 <div class="row">
                   <div class="col">
-                    <p class="item-name" style="background-color: green;">
-                      Pasta Marinara
+                    <p class="item-name">
+                      Pork Dumplings
                     </p>
                   </div>
                 </div>
                 <!-- Item Description -->
                 <div class="row">
                   <div class="col">
-                    <p class="item-description" style="background-color: green;">
-                      Homemade penne pasta with marinara sauce.
+                    <p class="item-description">
+                      Pork, cabbage, green onions, wrapped in wheat dough.
                     </p>
                   </div>
                 </div>
@@ -72,13 +76,142 @@
                 <div class="row">
                   <!-- Item Price -->
                   <div class="col">
-                    <p class="item-price" style="background-color: green;">
-                      $10.25
+                    <p class="item-price">
+                      $7.00
                     </p>
                   </div>
                   <!-- Item Add -->
                   <div class="col d-flex justify-content-end">
-                    <button class="item-add" type="button" style="background-color: green;">
+                    <button class="item-add" type="button">
+                      <p class="item-add-text">
+                        Add
+                      </p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Item Container-->
+            <div class="row justify-content-center align-items-end item-container">
+              <!--Item Image-->
+              <div class="col-auto p-0">
+                <img src="images\BeefPho.png" alt="Item Image" class="item-image">
+              </div>
+              <!-- Item Info -->
+              <div class="col item-info">
+                <!-- Item Name -->
+                <div class="row">
+                  <div class="col">
+                    <p class="item-name">
+                      Beef Pho
+                    </p>
+                  </div>
+                </div>
+                <!-- Item Description -->
+                <div class="row">
+                  <div class="col">
+                    <p class="item-description">
+                      Beef broth pho with your choice of up to three cuts of beef.
+                    </p>
+                  </div>
+                </div>
+                <!-- Item Price & Item Add -->
+                <div class="row">
+                  <!-- Item Price -->
+                  <div class="col">
+                    <p class="item-price">
+                      $12.00
+                    </p>
+                  </div>
+                  <!-- Item Add -->
+                  <div class="col d-flex justify-content-end">
+                    <button class="item-add" type="button">
+                      <p class="item-add-text">
+                        Add
+                      </p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Item Container-->
+            <div class="row justify-content-center align-items-end item-container">
+              <!--Item Image-->
+              <div class="col-auto p-0">
+                <img src="images\BeefStew.png" alt="Item Image" class="item-image">
+              </div>
+              <!-- Item Info -->
+              <div class="col item-info">
+                <!-- Item Name -->
+                <div class="row">
+                  <div class="col">
+                    <p class="item-name">
+                      Beef Stew
+                    </p>
+                  </div>
+                </div>
+                <!-- Item Description -->
+                <div class="row">
+                  <div class="col">
+                    <p class="item-description">
+                      Beef broth noodle soup with spicy braised brisket.
+                    </p>
+                  </div>
+                </div>
+                <!-- Item Price & Item Add -->
+                <div class="row">
+                  <!-- Item Price -->
+                  <div class="col">
+                    <p class="item-price">
+                      $13.00
+                    </p>
+                  </div>
+                  <!-- Item Add -->
+                  <div class="col d-flex justify-content-end">
+                    <button class="item-add" type="button">
+                      <p class="item-add-text">
+                        Add
+                      </p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Item Container-->
+            <div class="row justify-content-center align-items-end item-container">
+              <!--Item Image-->
+              <div class="col-auto p-0">
+                <img src="images\LemongrassTofu.png" alt="Item Image" class="item-image">
+              </div>
+              <!-- Item Info -->
+              <div class="col item-info">
+                <!-- Item Name -->
+                <div class="row">
+                  <div class="col">
+                    <p class="item-name">
+                      Lemongrass Tofu
+                    </p>
+                  </div>
+                </div>
+                <!-- Item Description -->
+                <div class="row">
+                  <div class="col">
+                    <p class="item-description">
+                      Soft tofu stir fried with lemongrass, red chili pepper, onion, and garlic.
+                    </p>
+                  </div>
+                </div>
+                <!-- Item Price & Item Add -->
+                <div class="row">
+                  <!-- Item Price -->
+                  <div class="col">
+                    <p class="item-price">
+                      $11.50
+                    </p>
+                  </div>
+                  <!-- Item Add -->
+                  <div class="col d-flex justify-content-end">
+                    <button class="item-add" type="button">
                       <p class="item-add-text">
                         Add
                       </p>

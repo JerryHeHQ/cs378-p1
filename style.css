@@ -1,3 +1,7 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #main-row {
     height: 100vh;
     align-items: center;
@@ -22,20 +26,29 @@
 }
 
 h1 {
-    font-weight: bold;
+    font-weight: lighter;
     font-size: x-large;
     margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 span {
+    font-size: large;
 }
 
 h2 {
-    font-size: x-large;
+    font-weight: bold;
+    font-size: small;
     margin-bottom: 0;
+    color: goldenrod;
+    font-family: 'Dancing Script', cursive;
 }
 
 h3 {
-    font-weight: light;
-    font-size: x-small;
+    font-size: large;
     margin-bottom: 0;
+    color: gray;
+    font-weight: 500;
 }
 
 .items-container {
@@ -43,12 +56,13 @@ h3 {
 }
 
 .item-container {
-    margin: 15px;
+    margin: 0px;
+    padding: 15px
 }
 
 .item-image {
     max-width: 100px;
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 10px;
 }
 
@@ -61,21 +75,24 @@ h3 {
 }
 
 .item-name {
-    font-weight: bold;
+    font-weight: 500;
     font-size: medium;
     margin-bottom: 0;
+    line-height: 100%;
 }
 
 .item-description {
-    font-weight: lighter;
-    font-size: xx-small;
+    font-weight: light;
+    font-size: x-small;
     margin-bottom: 0;
-    line-height: 90%;
+    line-height: 100%;
+    color: gray;
 }
 
 .item-price {
-    font-size: xx-small;
-    margin-bottom: 1px;
+    font-size: x-small;
+    font-weight: 500;
+    margin: 0;
 }
 
 .item-add {
@@ -83,9 +100,11 @@ h3 {
     padding-inline: 12px;
     border: 0px;
     border-radius: 12px;
+    box-shadow: 0px 1px 2px 0px gray;
 }
 
 .item-add-text {
-    font-size: xx-small;
-    margin-bottom: 1px;
+    font-size: x-small;
+    font-weight: 500;
+    margin: 0;
 }
