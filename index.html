@@ -13,46 +13,77 @@
 
   </head>
   <!-- Implement below this point -->
-  <div class="container text-center">
+  <div class="container">
     <div class="row" id="main-row">
       <div class="col" id="main-col">
-        <div class="row justify-content-center align-items-end gx-1" id="brand"> <!--Brand-->
-          <div class="col-auto">
+        <!--Brand-->
+        <div class="row justify-content-center align-items-end gx-1" id="brand" style="background-color: red;">
+          <div class="col-auto" style="background-color: yellow;">
             <img src="images\temp.png" alt="Brand Logo" id="brand-logo">
           </div>
-          <div class="col-auto">
-            <h1>Brand Name</h1>
+          <div class="col-auto text-center" style="background-color: green;">
+            <h1>CAMPUS CAFE</h1>
           </div>
         </div>
-        <div class="row"> <!--Mottos-->
+
+        <!--Mottos-->
+        <div class="row">
           <div class="col">
             <div class="row">
-              <div class="col">
-                <h3>Motto 1</h3>
+              <div class="col text-center" style="background-color: green;">
+                <h3>Delicious, From-Scratch Recipes Close at Hand</h3>
               </div>
             </div>
             <div class="row">
-              <div class="col">
-                <h2>Motto 2</h2>
+              <div class="col text-center" style="background-color: green;">
+                <h2>The Fresh Choice of UT!</h2>
               </div>
             </div>
           </div>
         </div>
-        <div class="row"> <!--Card Holder-->
-          <div class="col">
-            <div class="row"> <!--Item Card-->
-              <div class="col">Image</div>
-              <div class="col">
+
+        <!--Item Container-->
+        <div class="row" style="background-color: black;">
+          <div class="col items-container" style="background-color: red;">
+            <div class="row justify-content-center align-items-end item-container" style="background-color: orange;">
+              <!--Item Image-->
+              <div class="col-auto p-0" style="background-color: yellow;">
+                <img src="images\temp.png" alt="Item Image" class="item-image">
+              </div>
+              <!-- Item Info -->
+              <div class="col item-info">
+                <!-- Item Name -->
                 <div class="row">
-                  <div class="col">Name</div>
+                  <div class="col">
+                    <p class="item-name" style="background-color: green;">
+                      Pasta Marinara
+                    </p>
+                  </div>
                 </div>
+                <!-- Item Description -->
                 <div class="row">
-                  <div class="col">Description</div>
+                  <div class="col">
+                    <p class="item-description" style="background-color: green;">
+                      Homemade penne pasta with marinara sauce.
+                    </p>
+                  </div>
                 </div>
+                <!-- Item Price & Item Add -->
                 <div class="row">
-                  <div class="col">Price</div>
-                  <div class="col"></div>
-                  <div class="col">Add</div>
+                  <!-- Item Price -->
+                  <div class="col">
+                    <p class="item-price" style="background-color: green;">
+                      $10.25
+                    </p>
+                  </div>
+                  <!-- Item Add -->
+                  <div class="col d-flex justify-content-end">
+                    <button class="item-add" type="button" style="background-color: green;">
+                      <p class="item-add-text">
+                        Add
+                      </p>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
